@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagebody{
+    background-color: rgb(54, 54, 54);
+    height: 100vh;
+    width: 100%;
+    padding-top: 0.1px;
+}
+
+header{
+    display: flex;
+    width: 85%;
+    height: 5rem;
+    margin: 2rem auto;
+}
+
+Header h1{
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 10vw;
+}
+
+Header h1:hover{
+    color: purple;
+}
+
+header ul{
+    display: flex;
+}
+
+header nav ul li{
+    color: rgb(163, 129, 33);
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    list-style-type: none;
+    width: 10vw;
+    margin: 0 3vw;
+}
+
+header nav ul li:hover{
+    color: black;
+    padding: 0.1rem;
+    
+}
+
+.pagebody h2{
+    color: white;
+    margin-top: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
